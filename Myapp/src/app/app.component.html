@@ -1,0 +1,25 @@
+<div class="containerfluid">
+  <!-- <h1>
+    hello this is {{title}} heading!
+  </h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum ad similique fuga, deleniti ex rerum hic! Ipsum necessitatibus voluptatem illum veniam, deserunt eaque laborum atque cum mollitia ad consequuntur consectetur voluptatum. Quos, eos minima!</p> -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" routerLink="/">Todos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link"routerLink="/">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/about">About</a>
+      </ul>
+
+    </div>
+  </nav>
+</div>
+<router-outlet></router-outlet>
